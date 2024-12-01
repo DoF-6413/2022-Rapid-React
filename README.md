@@ -20,6 +20,7 @@ main Branch:
 
 - Use for Competitions
 - Only Receives Pushes from Dev
+- Do *NOT* Make Branches off of main
 
 dev Branch:
 
@@ -32,9 +33,10 @@ dev Branch:
 
 feat-[name]: 
 
--  Branch Name is all Lowercase
+- Used for new Features on the Robot
+- Branch Name is all Lowercase
 - Make Feature Branches off of the Dev Branch
--  Use for and Code changes
+-  Use for Code changes
 	- Changes can be as small or big as necessary
 	- Only Contains what the Branch is named
 		- EX. No climber code in a feat-shooter branch
@@ -42,3 +44,16 @@ feat-[name]:
 	- No hardcoded values
 	-  Explanatory Comments
 	- Code is Fully Functioning
+
+bugfix-[name]: 
+
+- Used for a bugfix of a feature from Dev
+- Branch Name is all Lowercase
+- Make BugFix Branches off of the Dev Branch
+
+chore-[name]: 
+
+- Used for cleaning code
+- Branch Name is all Lowercase
+- Make Chore Branches off of the Dev Branch
+- Mainly used by mentor or lead
